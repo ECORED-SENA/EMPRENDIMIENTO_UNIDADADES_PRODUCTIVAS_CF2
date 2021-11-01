@@ -7,22 +7,98 @@
       .titulo-principal__numero
         span 3
       h1 Previsión de ventas
+    .row.mb-5.justify-content-center
+      .col-lg-10
+        .bloque-texto-g.color-acento-botones.custom-cardBlock.p-3.p-sm-4.p-md-5.slideInUp
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/t3-i1.jpg')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 Toda unidad productiva debe tener presente la previsión de las ventas, es aquí donde se proyecta y se aproxima las ventas e ingresos por medio de una estimación del nivel de ventas. Es preciso resaltar que el conocimiento y la información son fundamentales en este proceso. Para esto se estudiará la cuota de mercado, el histórico de las ventas y las expectativas futuras. 
 
 
 
     #t_3_1.titulo-segundo.color-secundario
       h2 3.1  Cuota de ventas
 
+    .row.mb-5
+      .col-lg-2
+        figure(data-aos='flip-left')
+          img(src='@/assets/curso/t3-ic1.svg' alt='imagen decorativa')
+      .col-lg-10
+        p.mb-3  La cuota de mercado direcciona la estrategia de marketing y ventas. <b>Cuando se habla de cuota de ventas, se hace referencia a la participación y posición que alcanza la unidad productiva en el mercado.</b> Aquí se puede encontrar que las ventas son las metas fijas de los vendedores para cumplir con una cuota, por otra parte, se da un pronóstico de las ventas que hace referencia la previsión de lo que se venderá en un periodo determinado.
+
+    p.mb-5  Para determinar una cuota de ventas se parte de criterios como:
+
+    .row.mb-5.justify-content-center
+      .col-lg-6
+        ImagenInfografica.color-acento-botones.mb-5
+          template(v-slot:imagen)
+            figcaption.customCaption <b>Figura</b> Criterios para determinar una cuota de ventas
+            figure
+              img(src='@/assets/curso/t3-info1.svg', alt='Texto que describa la imagen')
+              figcaption Nota. SENA (2021).
+
+          .tarjeta.color-acento-botones.p-3(x="20%" y="20%" numero="1")
+            .h5.mb-2 titulo
+            p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
 
 
+    p.mb-5  Por otra parte, se pueden identificar algunas características de la cuota de ventas, entre estas se encentran:
+    //-- Aqui viene el componente interactivo
 
 
+    Separador
+    br
+    br
 
     #t_3_2.titulo-segundo.color-secundario
       h2 3.2  Histórico de ventas y expectativas futuras
 
+    .row.mb-5
+      .col-lg-2
+        figure(data-aos='flip-left')
+          img(src='@/assets/curso/t3-ic2.svg' alt='imagen decorativa')
+      .col-lg-10
+        p.mb-3  El objetivo de hacer una proyección de ventas de una unidad productiva es identificar la viabilidad que tendrá el negocio en un período determinado. para esto es importante hacer uso de información contundente como lo es el histórico de ventas de la compañía. 
+        p.mb-3  Para la proyección de ventas existen varios métodos, a continuación, se describen algunas proyecciones:
+    
+    TabsB.color-acento-contenido.mb-5
+      .py-4.py-md-5(titulo="Análisis de un resultado ya ocurrido" :icono="require('@/assets/curso/t3-ico1.svg')")
+        .row
+          .col-lg-5
+            figure.slideInLeft
+              img(src='@/assets/curso/t3-i2.jpg' alt='imagen decorativa')            
+          .col-md-6.mb-4.mb-md-0
+            h4 Análisis de un resultado ya ocurrido
+            p Consiste en el análisis de un resultado que ya ocurrió. Se deben analizar los ingresos y cantidades de ventas pasadas. Se puede obtener la misma cantidad de ingresos en los siguientes meses si se mantiene la misma estructura, inversión y condiciones en general. Aquí es importante saber que siempre van a existir nuevos competidores o se puede presentar alguna eventualidad externa que afecte el negocio.
+      
+      .py-4.py-md-5(titulo="Acciones de la empresa" :icono="require('@/assets/curso/t3-ico2.svg')")
+        .row
+          .col-lg-5
+            figure.slideInLeft
+              img(src='@/assets/curso/t3-i2.jpg' alt='imagen decorativa')            
+          .col-md-6.mb-4.mb-md-0
+            h4 Acciones de la empresa
+            p 
+    
+      .py-4.py-md-5(titulo="Proyección del mercado" :icono="require('@/assets/curso/t3-ico3.svg')")
+        .row
+          .col-lg-5
+            figure.slideInLeft
+              img(src='@/assets/curso/t3-i2.jpg' alt='imagen decorativa')            
+          .col-md-6.mb-4.mb-md-0
+            h4 Proyección del mercado
+            p 
 
-
+      .py-4.py-md-5(titulo="Punto de equilibrio" :icono="require('@/assets/curso/t3-ico4.svg')")
+        .row
+          .col-lg-5
+            figure.slideInLeft
+              img(src='@/assets/curso/t3-i2.jpg' alt='imagen decorativa')            
+          .col-md-6.mb-4.mb-md-0
+            h4 Punto de equilibrio
+            p 
 
 
 
