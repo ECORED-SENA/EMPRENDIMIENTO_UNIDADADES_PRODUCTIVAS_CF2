@@ -4,8 +4,8 @@ export default {
       'Ventas, contabilización, finanzas, estados de resultados y presupuestos  de unidades productivas.',
     descripcionCurso:
       'Los contenidos propuestos en este componente de formación, permiten conocer y analizar la planificación de ventas, donde se estudiará el plan y técnicas de ventas, de igual forma la proyección pronóstica de las mismas. Por otra parte, se analizará contabilización, finanzas y estados de resultados.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
   },
   menuPrincipal: {
     menu: [
