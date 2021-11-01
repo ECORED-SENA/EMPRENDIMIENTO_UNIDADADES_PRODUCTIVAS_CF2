@@ -5,21 +5,12 @@
     
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 3
-      h1 Previsión de ventas
-
-
-
-    #t_3_1.titulo-segundo.color-secundario
-      h2 3.1  Cuota de ventas
+        span 7
+      h1 Presupuesto
 
 
 
 
-
-
-    #t_3_2.titulo-segundo.color-secundario
-      h2 3.2  Histórico de ventas y expectativas futuras
 
 
 
@@ -44,7 +35,7 @@
 
 <script>
 export default {
-  name: 'Tema3',
+  name: 'Tema7',
   data: () => ({
     // variables de vue
   }),

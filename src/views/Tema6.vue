@@ -5,26 +5,27 @@
     
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 3
-      h1 Previsión de ventas
+        span 6
+      h1 Balance y documentación contable
 
 
 
-    #t_3_1.titulo-segundo.color-secundario
-      h2 3.1  Cuota de ventas
-
-
-
-
-
-
-    #t_3_2.titulo-segundo.color-secundario
-      h2 3.2  Histórico de ventas y expectativas futuras
+    #t_6_1.titulo-segundo.color-secundario
+      h2 6.1  Tipos de balance
 
 
 
 
 
+
+    #t_6_2.titulo-segundo.color-secundario
+      h2 6.2  Documentación contable
+
+
+
+
+    #t_6_3.titulo-segundo.color-secundario
+      h2 6.3  Títulos de valor
 
 
 
@@ -44,7 +45,7 @@
 
 <script>
 export default {
-  name: 'Tema3',
+  name: 'Tema7',
   data: () => ({
     // variables de vue
   }),
