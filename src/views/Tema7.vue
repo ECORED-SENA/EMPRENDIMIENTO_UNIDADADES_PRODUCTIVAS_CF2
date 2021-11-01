@@ -12,7 +12,7 @@
       .col-lg-7
         p.mb-3  Toda unidad productiva en sus etapas de inicio y en desarrollo de sus actividades es primordial que cuente con financiación y para eso deben realizar un presupuesto, a continuación, se va a conocer qué es y sus características. 
         p.mb-3  Un presupuesto se considera un plan operacional y de recursos de la unidad productiva, su fin es lograr los objetivos propuestos por administración y se expresa en términos monetarios. En otras palabras, se entiende como la planeación para lo que se quiere en el futuro con la unidad productiva y expresarlo en dinero.  
-        .cajon.color-acento-contenido.p-4
+        .cajon.color-acento-botones.p-4
           p.mb-0  Por otra parte, el presupuesto hace referencia a la cantidad de dinero que se necesita para cubrir una serie de gastos necesarios para la realización de un proyecto. Se puede entender también como una cifra anticipada que estima el coste que se necesita para el cumplimiento de un objetivo.
 
       .col-lg-5
@@ -61,9 +61,42 @@
         figure(data-aos='flip-up')
           img(src='@/assets/curso/t7-i4.svg' alt='imagen decorativa')
       .col-lg-8
-        //-- Aqui viene el acordeon
-
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+          .row(titulo="Presupuesto maestro")
+            .col-md-12.mb-4.mb-md-0
+              p Este recoge casi el de todos los departamentos o áreas de la unidad productiva. Es creado a partir de otros presupuestos, creando una visión global de la unidad productiva.
     
+          .row(titulo="Presupuesto operativo")
+            .col-md-12.mb-4.mb-md-0
+              p Aquí está orientado a las partidas que se relacionan con la actividad ordinaria de la unidad productiva en materia de compras y ventas, y suele darse a corto plazo.
+              
+          .row(titulo="Presupuesto de flujo de caja")
+            .col-md-12.mb-4.mb-md-0
+              p Este se encarga de recolectar todos los posibles movimientos que dan en el ejercicio a nivel de flujo de efectivo.
+
+          .row(titulo="Presupuesto de ventas")
+            .col-md-12.mb-4.mb-md-0
+              p Es una estimación de ingresos por ventas de una empresa en un periodo determinado.
+          .row(titulo="Presupuesto de producción")
+            .col-md-12.mb-4.mb-md-0
+              p Articula y estima el nivel de fabricación de existencias o realización de servicios.
+
+          .row(titulo="Presupuesto de gastos")
+            .col-md-12.mb-4.mb-md-0
+              p Es una proyección de gastos de la unidad productiva en un tiempo determinado.            
+               
+          .row(titulo="Presupuesto de ingresos")
+            .col-md-12.mb-4.mb-md-0
+              p Este documento engloba los ingresos de una unidad productiva en un periodo determinado. Esto se da así sean o no procedentes de la actividad principal de la unidad productiva.   
+
+          .row(titulo="Presupuesto base cero")
+            .col-md-12.mb-4.mb-md-0
+              p Refleja cuánto y dónde se asignan los recursos de una unidad productiva, su objetivo es alcanzar más rentabilidad y eficiencia mediante la reasignación de las partidas de gastos.
+
+          .row(titulo="Presupuesto de capital")
+            .col-md-12.mb-4.mb-md-0
+              p Determina la diferencia entre las inversiones futuras y los recursos necesarios para llevar a cabo su objetivo, como previsión financiera. 
+
 
     h3.titulo-tercero
       i.fas.fa-angle-right
@@ -72,7 +105,7 @@
     .row.mb-5
       .col-lg-7(data-aos='flip-up')
         p.mb-4  En contabilidad los conceptos de ingreso y egreso son términos opuestos. El primero representa una entrada de dinero y el segundo hace referencia a una salida.
-        .cajon.color-acento-contenido.p-4.mb-4
+        .cajon.color-acento-botones.p-4.mb-4
           p.mb-0  Se puede entender ingreso como un aumento en el patrimonio de una persona natural o jurídica, y por otro lado el egreso sería una reducción de este. Por otra parte, al reportar beneficios en un periodo específico, los ingresos deben superar a los egresos. De no ser así, se registrarán pérdidas. Las unidades productivas analizan esto en el estado financiero conocido como cuenta de resultados.
         p.mb-3  Se debe determinar primero el tipo de empresa o actividad económica que desarrolla. A continuación, se verán unos ejemplos de ingresos y egresos (gastos):    
       .col-lg-5
