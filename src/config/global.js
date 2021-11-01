@@ -76,8 +76,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo:
-              'Cuota de ventas',
+            titulo: 'Cuota de ventas',
             hash: 't_3_1',
           },
           {
@@ -105,8 +104,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '5.1',
-            titulo:
-              'Ventas, administración y logística',
+            titulo: 'Ventas, administración y logística',
             hash: 't_5_1',
           },
         ],
@@ -121,8 +119,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '6.1',
-            titulo:
-              'Tipos de balance',
+            titulo: 'Tipos de balance',
             hash: 't_6_1',
           },
           {
