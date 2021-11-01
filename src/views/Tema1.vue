@@ -16,41 +16,41 @@
         figure.slideInLeft
           img(src='@/assets/curso/t1-i1.jpg' alt='imagen decorativa')
 
-    p.mb-5  La realización de un plan de ventas tiene beneficios para la unidad productiva, entre estos se encuentran:
+    p.mb-5  La realización de un plan de ventas tiene <b>beneficios</b> para la unidad productiva, entre estos se encuentran:
 
     .row.mb-5
       .col-lg-3
         figure(data-aos='flip-left')
-          img(src='@/assets/curso/t1-i1.jpg' alt='imagen decorativa')
+          img(src='@/assets/curso/t1-i2.jpg' alt='imagen decorativa')
       .col-lg-7
         ul.lista-ul(data-aos='slide-left')
           li
             i.fas.fa-check
-            p La comunicación en las áreas de la unidad productiva mejora. 
+            p.mb-0 La comunicación en las áreas de la unidad productiva mejora. 
           li
             i.fas.fa-check
-            p Mejor sincronización en los procesos.
+            p.mb-0 Mejor sincronización en los procesos.
           li
             i.fas.fa-check
-            p Disminución de costos operativos, menos inventarios, entregas a tiempo en la producción y menos gastos innecesarios.
+            p.mb-0 Disminución de costos operativos, menos inventarios, entregas a tiempo en la producción y menos gastos innecesarios.
           li
             i.fas.fa-check
-            p Mayor control del inventario y surtido de productos en puntos de venta o almacenes.
+            p.mb-0 Mayor control del inventario y surtido de productos en puntos de venta o almacenes.
           li
             i.fas.fa-check
-            p Mayor rentabilidad.
+            p.mb-0 Mayor rentabilidad.
           li
             i.fas.fa-check
-            p Detección y previsión de dificultades a través de escenarios hipotéticos.
+            p.mb-0 Detección y previsión de dificultades a través de escenarios hipotéticos.
           li
             i.fas.fa-check
-            p Mejor desempeño e incursión de productos.
+            p.mb-0 Mejor desempeño e incursión de productos.
           li
             i.fas.fa-check
-            p Promociones y estrategias de lanzamiento.
+            p.mb-0 Promociones y estrategias de lanzamiento.
           li
             i.fas.fa-check
-            p Mayor satisfacción de los clientes o consumidores a través de un mejor servicio. 
+            p.mb-0 Mayor satisfacción de los clientes o consumidores a través de un mejor servicio. 
 
 
     p.mb-5  Por otra parte, para poder ejecutar un plan de ventas es necesario que exista un consenso sobre los planes de demanda y producción por medio de cinco etapas:
