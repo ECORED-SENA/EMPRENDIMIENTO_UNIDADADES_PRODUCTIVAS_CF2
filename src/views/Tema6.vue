@@ -76,7 +76,63 @@
         figure(data-aos='flip-up')
           img(src='@/assets/curso/t6-i4.svg' alt='imagen decorativa')              
       .col-lg-8
-        //-- Aqui viene la linea de tiempo
+        .tarjeta.tarjeta--gris.p-4.mb-5
+          LineaTiempoC.color-acento-contenido(text-small)
+            .row(titulo="Tipo 1")
+              .col-md-12.mb-4.mb-md-0
+                .h3 Balance de sumas y saldos
+                p Es conocido como balance de comprobación. Este notifica a los empresarios que los movimientos económicos de la unidad productiva se realizaron como fue previsto. Las cuentas de esos libros deben cuadrar correctamente.
+            .row(titulo="Tipo 2")
+              .col-md-12.mb-4.mb-md-0
+                .h3 Balance de pérdidas y ganancias
+                p Aquí, se presentan tanto las pérdidas como las ganancias de la unidad productiva. Esto permite detectar errores sobre el funcionamiento empresarial. Se busca aumentar los beneficios y disminuir las perdidas.
+            .row(titulo="Tipo 3")
+              .col-md-12.mb-4.mb-md-0
+                .h3 Balance de situación
+                p.mb-3  Se conoce como balance general. Se realiza para determinar el total del patrimonio de la unidad productiva en un momento determinado. el patrimonio se divide en bienes, derechos, obligaciones y capital. Aquí se encuentran dos tipos de balance de situación:
+                ul.lista-ul
+                  li
+                    i.fas.fa-check
+                    p <b>Balance de situación inicial:</b> se realiza al principio y tiene como fin determinar la situación actual de la empresa. En un futuro servirá para comparar con otros balances y se pueda tomar decisiones según los resultados obtenidos.  
+                  li
+                    i.fas.fa-check
+                    p <b>Balance de situación de cierre:</b> esta se realiza al final de la jornada económica, generalmente de manera anual. Aquí se analiza el rendimiento de la unidad productiva al finalizar todos los proyectos.
+            .row(titulo="Tipo 4")
+              .col-md-12.mb-4.mb-md-0
+                .h3 Balance consolidado
+                p.mb-3  Su objetivo es conocer la situación general de diferentes empresas en un solo estado. Detalla los balances de todas las empresas pertenecientes a una empresa matriz o sociedad. Este permite conocer de manera compacta la situación de todas las empresas. 
+            .row(titulo="Tipo 5")
+              .col-md-12.mb-4.mb-md-0
+                .h3 Balance de prueba
+                p.mb-3 Se conoce como balance de comprobación. Aquí se visualiza la totalidad de las cuentas de débito y crédito. Refleja un resumen de los estados financieros. No es requisito, pero permite una mejor organización y puede servir como bases para el balance final. 
+            .row(titulo="Tipo 6")
+              .col-md-12.mb-4.mb-md-0             
+                .h3 Balance de prueba
+                p.mb-3  Es complejo y minuciosamente detallado, aquí se especifica todo tipo de asunto. Se utiliza en empresas de gran magnitud.
+            .row(titulo="Tipo 7")
+              .col-md-12.mb-4.mb-md-0             
+                .h3 Balance abreviado
+                p.mb-3 Es compacto, y simple, a diferencia del normal este es menos detallado- se referencian las cuentas más importantes.
+            .row(titulo="Tipo 8")
+              .col-md-12.mb-4.mb-md-0             
+                .h3 Balance clasificado
+                p.mb-3  Aquí se presenta una división de las cuentas según las funciones que estas tengan. 
+            .row(titulo="Tipo 9")
+              .col-md-12.mb-4.mb-md-0             
+                .h3 Balance presupuestario
+                p.mb-3  Se verifica el cumplimiento de las metas que la unidad productiva se propuso cumplir en un periodo determinado. Este ayuda a identificar debilidades que no permiten cumplir los objetivos. 
+            .row(titulo="Tipo 10")
+              .col-md-12.mb-4.mb-md-0             
+                .h3 Balance de apertura
+                p.mb-3  Se realiza al principio de un periodo o ciclo contable. Generalmente se escoge una fecha inicial del año entrante.  
+            .row(titulo="Tipo 11")
+              .col-md-12.mb-4.mb-md-0             
+                .h3 Balance parcial
+                p.mb-3  Se realiza en cualquier momento entre el periodo contable. Las empresas lo realizan generalmente de manera trimestral o semestral.
+            .row(titulo="Tipo 12")
+              .col-md-12.mb-4.mb-md-0             
+                .h3 Balance final
+                p.mb-3  Se realiza al final de un periodo o ciclo contable, con el fin de observar el funcionamiento económico que tuvo la empresa durante todo el año.                  
 
     p.mb-5  A continuación, se podrá observar en el siguiente video, cómo hacer un balance inicial, el cual se puede aplicar a una unidad productiva, emprendimiento o idea de negocio:
     figure.mb-5
@@ -226,8 +282,31 @@
 
     p.mb-5  Ahora se abordarán algunos de los conceptos de los tipos de documentos contables y sus formatos más comunes: 
 
-    //-- Aqui viene el slider
+    .tarjeta.p-4.bg-slider.mb-5.shadow-box
+      SlyderA
+        .row
+          .col-lg-6.mb-4.mb-md-0
+            h3 Factura
+            p Se constituye como un título valor, que el vendedor del servicio podrá librar y entregar al comprador o beneficiario del servicio, el objetivo de este documento es certificar las operaciones de consumo efectuada. Como requisitos mínimos debe contemplar: la fecha de la operación, el nombre de las partes, la descripción del producto o servicio, el valor del negocio, la forma de pago, entre otros aspectos. Se entrega la factura original al cliente y se elaboran dos copias, una para el archivo y otra para el comprobante diario de contabilidad (software o digital).    
+          .col-lg-6
+            figure(data-aos='flip-left')
+              img(src='@/assets/curso/t6-s1.png' alt='Ejemplo de factura') 
+        .row
+          .col-lg-6.mb-4.mb-md-0
+            h3 Recibo de caja  
+            p Es un documento contable que se utiliza para registrar los diferentes recaudos de dinero que tenga la unidad productiva por concepto de cualquier transacción comercial. Aquí se contabiliza un debito a la cuenta caja y el crédito según el concepto de pago. El original se le entrega al cliente y se guarda una copia para el archivo consecutivo y diario de contabilidad. Como requisitos mínimos, debe llevar la fecha, los conceptos , datos de la unidad productiva, numeración consecutiva, el monto y total de la operación.   
+          .col-lg-6
+            figure(data-aos='flip-left')
+              img(src='@/assets/curso/t6-s2.png' alt='Ejemplo de recibo de caja') 
+        .row
+          .col-lg-6.mb-4.mb-md-0
+            h3 Letra de cambio 
+            p Es un documento mercantil que contiene una promesa u obligación de pagar una determinada cantidad de dinero a una convenida fecha de vencimiento. Aquí interactúan dos actores llamados librador (girado) y tomador (beneficiario); el girador corresponde al acreedor o el que presta el dinero, el girado es quien esta obligado a pagar y el beneficiario es la persona a la que se le debe pagar, este último, puede ser el mismo girador.  
+          .col-lg-6
+            figure(data-aos='flip-left')
+              img(src='@/assets/curso/t6-s3.png' alt='Ejemplo de letra de cambio') 
 
+    br
     .row.mb-5
       .col-lg-6
         p Esos son algunos ejemplos de los tipos de documentos contables, es necesario tener en cuenta, que, según lo establecido por la ley, en el Decreto 410 de 1971 del Código de Comercio de Colombia en el Artículo 60, establece que: 
