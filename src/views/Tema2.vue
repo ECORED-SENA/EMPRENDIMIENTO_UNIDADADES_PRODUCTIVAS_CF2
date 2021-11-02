@@ -222,7 +222,7 @@
     p.mb-5  Por otra parte, se pueden observar varias etapas entre el mensaje que quiere dar a conocer el emisor y el que realmente capta el receptor. Es aquí donde aparecen diferentes interferencias o barreras que pueden modificar el mensaje y disminuir la eficacia de la comunicación. Entre algunas de estas interferencias están:
 
     figcaption.customCaption.mb-3  Interferencias de la comunicación
-    ImagenInfografica.color-secundario.mb-5
+    ImagenInfografica.color-secundario.mb-5(data-aos='fade-up')
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/t2-i6.svg', alt='Interferencias de la comunicación')
@@ -254,7 +254,7 @@
     .row.mb-5
       .col-lg-8
         p.mb-4(data-aos='fade-left')  Las post ventas se entienden como el conjunto de procesos posteriores a la venta, como mantener contacto por email, generar cupones para cumpleaños, descuentos en la segunda compra o para ocasiones especiales, entre otros. Aquí es importante transformar el cliente en un comprador recurrente de nuestra unidad productiva. Un ejemplo sería cuando después de la compra el cliente recibe un correo donde se le aconseja la mejor utilización del producto adquirido, esto hace que el cliente se sienta importante para la empresa y puede posibilitar que vuelva a comprar o elogiar su experiencia con la marca o negocio. 
-        .cajon.colo-acento-contenido.p-4(data-aos='slide-left')
+        .cajon.color-acento-contenido.p-4(data-aos='slide-left')
           p.mb-0  La importancia de aplicar postventa recae en lograr fidelizar al cliente, puesto que buscar nuevos clientes implica una serie de acciones que demoran más en sufrir efecto y exige una inversión más alta, caso contrario en mantener al cliente satisfecho y hacerle saber que es importante para la empresa. De esa forma se convierte en un cliente constante de la marca o de los productos de la unidad productiva.
       .col-lg-4
         figure(data-aos='flip-left')
@@ -265,7 +265,7 @@
         figure(data-aos='flip-left')
           img(src='@/assets/curso/t2-i8.png', alt='imagen decorativa')  
       .col-lg-9
-        ul.lista-ul
+        ul.lista-ul(data-aos='flip-right')
           li
             i.fas.fa-check
             p.mb-0 Pedir la opinión a los compradores.
