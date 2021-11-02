@@ -162,38 +162,174 @@
     .row.mb-5
       .col-lg-7
         p.mb-4(data-aos='fade-left')  Los documentos contables sirven de respaldo a transacciones que realiza la unidad productiva y se utilizan en la contabilidad, para calcular ingresos, egresos y patrimonios. En otras palabras, se puede decir que son archivos que sirven para registrar todas las actividades comerciales a las que se dedica una unidad productiva. De esta forma, funcionan como prueba de los movimientos financieros en determinado tiempo
-        .cajon.color-acento-contenido.p-4(data-aos='flip-left')
+        .cajon.color-acento-contenido.p-4.mb-4(data-aos='flip-left')
           p.mb-0  Estos documentos deben ser auditados por distintos organismos gubernamentales como la Dirección de Impuestos y Aduanas Nacionales – DIAN que es la entidad encargada de fiscalizar. <b>Es por esta razón que se debe manejar un adecuado proceso y manejo de los archivos y documentos contables. </b>
         p.mb-3  A continuación, se puede observar la categorización de algunos documentos contables:
       .col-lg-5
         figure(data-aos='flip-left')
-          img(src='@/assets/curso/t6-tabla3.svg' alt='Ejemplo de balance de apertura')             
+          img(src='@/assets/curso/t6-i7.jpg' alt='Ejemplo de balance de apertura')             
 
     .row.mb-5
       .col-lg-10
         figcaption.customCaption  <b>Tabla</b> Tipos de Documentos Contables
 
-        //-- Aqui viene la tabla    
-
-        figcaption  Nota. SENA (2021). 
+    .row.mb-5.justify-content-center
+      .col-lg-10
+        .tabla-a.color-acento-botones.mb-5 
+          table
+            thead
+              tr
+                th Documentos contables internos 
+                th Documentos contables externos
+            tbody
+              tr
+                td 
+                  p Se elaboran directamente en la unidad productiva.
+                  ul.lista-ul
+                    li
+                      i.fas.fa-check
+                      p.mb-0 La factura de venta.
+                    li
+                      i.fas.fa-check
+                      p.mb-0 Recibos de cobro.
+                    li
+                      i.fas.fa-check
+                      p.mb-0 Presupuestos
+                    li
+                      i.fas.fa-check
+                      p.mb-0 Vales 
+                    li
+                      i.fas.fa-check
+                      p.mb-0 Recibos de pago, entre otros.
+                td 
+                  p Son elaborados por otra empresa o por otro servicio adquirido.
+                  ul.lista-ul
+                    li
+                      i.fas.fa-check
+                      p.mb-0 Recibo de caja.
+                    li
+                      i.fas.fa-check
+                      p.mb-0 Comprobante de pago.
+                    li
+                      i.fas.fa-check
+                      p.mb-0 Comprobante de devolución.
+                    li
+                      i.fas.fa-check
+                      p.mb-0 Consignaciones.
+                    li
+                      i.fas.fa-check
+                      p.mb-0 Letras de cambio.
+                    li
+                      i.fas.fa-check
+                      p.mb-0 Factura de compra, entre otros.
+          figcaption  Nota. SENA (2021). 
 
     p.mb-5  Ahora se abordarán algunos de los conceptos de los tipos de documentos contables y sus formatos más comunes: 
+
+    //-- Aqui viene el slider
+
+    .row.mb-5
+      .col-lg-6
+        p Esos son algunos ejemplos de los tipos de documentos contables, es necesario tener en cuenta, que, según lo establecido por la ley, en el Decreto 410 de 1971 del Código de Comercio de Colombia en el Artículo 60, establece que: 
+      .col-lg-6
+        p.text-bold “Los libros y papeles a que se refiere este Capítulo deberán ser conservados cuando menos por diez (10) años, contados desde el cierre de aquéllos o a la fecha del último asiento, documento o comprobante”.
+    
+    .row.mb-5.justify-content-center
+      .col-lg-7
+        p.mb-3  Por otra parte, existen documentos denominados no contables, estos son de carácter informativo. Brindan información y detalles útiles para la contabilidad, pero no para efectuar procedimientos contables.  En otras palabras, se puede decir que no afectan ni realizan modificaciones en la contabilidad de la unidad productiva. Aquí se encuentran los siguientes documentos: 
+        .row.mb-4
+          .col-lg-6
+            ul.lista-ul
+              li
+                i.fas.fa-check
+                p.mb-0  Remisiones
+              li
+                i.fas.fa-check
+                p.mb-0  Cotizaciones
+              li
+                i.fas.fa-check
+                p.mb-0  Órdenes de pedido
+              li
+                i.fas.fa-check
+                p.mb-0  Órdenes de compra
+               
+          .col-lg-6
+            ul.lista-ul
+              li
+                i.fas.fa-check
+                p.mb-0  Órdenes de entrega
+              li
+                i.fas.fa-check
+                p.mb-0  Remesa
+              li
+                i.fas.fa-check
+                p.mb-0  Hojas de vida
+              li
+                i.fas.fa-check
+                p.mb-0  Solicitudes
+        p.mb-3  Por ejemplo: <b>la cotización</b>, también conocida como presupuesto o propuesta económica, es un documento de carácter informativo, que establece el precio de un bien o servicio como mecanismo de negociación de compra, consideraciones de carácter presupuestario, entre otras. Este documento no genera registro contable y puede solicitarse de forma física o virtual por medio de correo electrónico o medio digital. Este puede llegar a tener la misma estructura en su formato a la de una factura, pero en su información se indica su razón, como se puede observar a continuación: 
+          
+      .col-lg-5
+        figure(data-aos='flip-left')
+          img(src='@/assets/curso/t6-i8.jpg' alt='Ejemplo de balance de apertura')      
+
+    .row.mb-5.justify-content-center
+      .col-lg-8
+        figure(data-aos='flip-left')
+          img(src='@/assets/curso/t6-i9.jpg' alt='Ejemplo de balance de apertura')          
 
 
     Separador
     br
     br
+
     #t_6_3.titulo-segundo.color-secundario
       h2 6.3  Títulos de valor
 
+    .row.mb-5
+      .col-lg-8
+        p.mb-3  Se entiende como título de valor a un documento que incorpora un derecho literal y autónomo, que legitima al uso de ese derecho al tenedor del título o a su beneficiario. En otras palabras, quien firma el documento se convierte en deudor. 
+        p.mb-3  Un título de valor implica que la persona que suscribe el titulo está obligada a la prestación del poseedor del título, el tenedor es beneficiario y puede mediante acción cambiaria exigir jurídicamente el pago del contenido literal del título de valor. Un ejemplo de esto es: quien firma una letra de cambio, se encuentra obligado a pagarla en la fecha estipulada y el beneficiario podrá cobrarla jurídicamente si se niega el deudor.  
+        p.mb-3  Los títulos de valor se pueden clasificar de la siguiente forma: 
+      .col-lg-4
+        figure(data-aos='flip-left')
+          img(src='@/assets/curso/t6-i10.jpg' alt='Ejemplo de balance de apertura')     
 
-
-
-
-
-
-
-
+    .row.mb-5.justify-content.center
+      .col-lg-4
+        figure(data-aos='flip-left')
+          img(src='@/assets/curso/t6-i11.svg' alt='Ejemplo de balance de apertura') 
+      .col-lg-6  
+        //-- Aqui viene el accordeon
+    
+    .row.mb-5
+      .col-lg-3
+        figure(data-aos='flip-left')
+          img(src='@/assets/curso/t6-i12.svg' alt='Ejemplo de balance de apertura') 
+      .col-lg-9
+        p.mb-4  Se puede encontrar diferentes tipos de títulos valores, entre estos se tienen:
+        ul.lista-ul
+          li
+            i.fas.fa-check
+            p.mb-0  Cheques
+          li
+            i.fas.fa-check
+            p.mb-0 Letras de cambio
+          li
+            i.fas.fa-check
+            p.mb-0 Pagarés
+          li
+            i.fas.fa-check
+            p.mb-0 Facturas cambiarias
+          li
+            i.fas.fa-check
+            p.mb-0 Bonos
+          li
+            i.fas.fa-check
+            p.mb-0 Certificados de depósito
+          li
+            i.fas.fa-check
+            p.mb-0 Carta de porte y reconocimiento de embarque
 
 
 
