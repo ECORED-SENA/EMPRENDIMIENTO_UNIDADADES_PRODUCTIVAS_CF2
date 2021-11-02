@@ -32,17 +32,23 @@
 
     .row.mb-5.justify-content-center
       .col-lg-6
-        ImagenInfografica.color-acento-botones.mb-5
+        ImagenInfografica.color-acento-contenido.mb-5
           template(v-slot:imagen)
             figcaption.customCaption <b>Figura</b> Criterios para determinar una cuota de ventas
             figure
               img(src='@/assets/curso/t3-info1.svg', alt='Texto que describa la imagen')
-              figcaption Nota. SENA (2021).
-
-          .tarjeta.color-acento-botones.p-3(x="20%" y="20%" numero="1")
-            .h5.mb-2 titulo
-            p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
+          .tarjeta.color-acento-contenido.p-3.shadow-box(x="20%" y="18%" numero='')
+            p Volumen de ventas de una línea de productos en determinada zona geográfica, entre un tipo de cliente a través de un canal de venta.
+          .tarjeta.color-acento-contenido.p-3.shadow-box(x="82%" y="18%")
+            p Zona geográfica, región, municipio, barrio.
+          .tarjeta.color-acento-contenido.p-3.shadow-box(x="97%" y="65%")
+            p Categorías, líneas, tipos de productos. 
+          .tarjeta.color-acento-contenido.p-3.shadow-box(x="4%" y="65%")
+            p Pequeños, medianos y grandes.
+          .tarjeta.color-acento-contenido.p-3.shadow-box(x="50%" y="99%")
+            p Venta directa, minorista, mayorista.
+        
+        figcaption Nota. SENA (2021).
 
     p.mb-5  Por otra parte, se pueden identificar algunas características de la cuota de ventas, entre estas se encentran:
     //-- Aqui viene el componente interactivo
