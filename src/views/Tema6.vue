@@ -379,8 +379,23 @@
         figure(data-aos='flip-left')
           img(src='@/assets/curso/t6-i11.svg' alt='Ejemplo de balance de apertura') 
       .col-lg-6  
-        //-- Aqui viene el accordeon
-    
+        LineaTiempoD.color-primario
+          .text-small(numero="1" titulo="De contenido crediticio") 
+            p Contienen un crédito en favor del tenedor del título, como una letra de cambio, un pagaré o un cheque.
+          .text-small(numero="2" titulo="De contenido corporativo o de participación") 
+            p Incorporan un derecho societario o empresarial, que representan una participación en la sociedad o empresa.
+          .text-small(numero="3" titulo="De tradición o representativos de mercancías") 
+            p Estos representan o incorporan la posesión o custodia de mercancías o dinero, como un contrato de depósito, ya sea de mercancías o dinero (cuentas de ahorros, por ejemplo).
+          .text-small(numero="4" titulo="Títulos nominativos") 
+            p Cuando en este o en la norma que rige su creación se exija la inscripción del tenedor en el registro que llevará el creador del título. Se reconoce como tenedor legítimo quien figure en el texto del documento.    
+          .text-small(numero="5" titulo="Títulos a la orden") 
+            p Aquí se incorpora el nombre o razón social del beneficiario o tenedor. Son transferibles por endoso, o se diga que son negociables.
+          .text-small(numero="6" titulo="Títulos al portador") 
+            p Este no se expide a nombre de persona determinada, sino que será pagadero a quien lo porte, sin importar su nombre.
+
+            
+
+
     .row.mb-5
       .col-lg-3
         figure(data-aos='flip-left')

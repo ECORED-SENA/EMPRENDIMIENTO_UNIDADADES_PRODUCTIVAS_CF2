@@ -20,16 +20,20 @@
     
     .row.mb-5.justify-content-center
       .col-lg-8
-        figcaption.customCaption  <b>Figura</b> Objetivos de la Contabilidad
-        //-- Aqui viene la imagen
+        figcaption.customCaption.mb-3  <b>Figura</b> Objetivos de la Contabilidad
+        figure(data-aos='flip-left')
+          img(src='@/assets/curso/t4-i2.svg' alt='imagen decorativa')
+        br
         figcaption  Nota. SENA (2021).
         
     p.mb-5  Según lo establecido en la imagen anterior, la contabilidad es una ciencia muy amplia, donde su objetivo recae en recoger, estructurar y registrar los movimientos que se dan en una unidad productiva. Para profundizar un poco más sobre el concepto contable, se verán los tipos de contabilidad. Estos tipos de contabilidad depende de muchos factores, como: el origen de los recursos, la actividad de la unidad productiva y el tipo de información que se trabaje. A continuación, se estudiará su conceptualización:
 
     .row.mb-5.justify-content-center
       .col-lg-8
-        figcaption.customCaption <b>Figura</b>  Tipos de Contabilidad Según su Origen, la Actividad e Información:
-        //-- Aqui viene la imagen
+        figcaption.customCaption.mb-3 <b>Figura</b>  Tipos de Contabilidad Según su Origen, la Actividad e Información:
+        figure(data-aos='flip-up')
+          img(src='@/assets/curso/t4-i3.svg' alt='imagen decorativa')
+        br
         figcaption  Nota. SENA (2021).
 
     TabsB.color-acento-contenido.mb-5
