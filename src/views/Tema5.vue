@@ -94,7 +94,16 @@
         figure.slideInLeft
           img(src='@/assets/curso/t5-ic5.png' alt='imagen decorativa')
     
-    //-- Aqui viene el componente de cards and navs holders
+    .row.mb-5
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t5-c1.png')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5
+              .h3 Identificación del consumidor final  
+              p Clientes objetivo; segmentos; grupos destinatarios; nichos estratégicos; sectores de apoyo. 
+
 
     p.mb-5  Por otra parte, se encuentra que para que exista una gestión eficaz de las ventas se debe identificar el cliente objetivo, realizar un marketing comercial y gestionar la distribución de los productos. Todo esto determina la estructura de apoyo de las ventas y para su gestión implica: 
 
