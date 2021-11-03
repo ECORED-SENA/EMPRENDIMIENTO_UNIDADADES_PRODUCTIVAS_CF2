@@ -7,7 +7,7 @@
       .titulo-principal__numero
         span 6
       h1 Balance y documentación contable
-    .row.mb-5
+    .row.mb-5.slideInUp
       .col-lg-7
         p.mb-3  En toda unidad productiva es importante que se lleve una contabilidad que le permita establecer los alcances administrativos y financieros, con el objetivo de cumplir las metas propuestas. Esta contabilidad nos facilita cierta documentación y balances que permitirán conocer en detalle la situación económica y financiera de la empresa.
         p.mb-4  Antes de entrar en profundidad, se debe conocer el concepto de balance, se puede decir, que es un contable que va a permitir conocer la situación financiera y económica de una empresa en un momento determinado del tiempo. El Balance se compone de tres factores, estos se conocen como: Activo, Pasivo y Patrimonio (Capital).
@@ -27,29 +27,29 @@
         ul.lista-ul
           li
             i.fas.fa-check
-            p <b>Empresa objetivo:</b> se pueden comparar balances generales de empresas distintas, esto dependerá de su similitud y calidad de los datos. Pueden ser del mismo sector o poseen el mismo nicho de mercado. 
+            p.mb-0 <b>Empresa objetivo:</b> se pueden comparar balances generales de empresas distintas, esto dependerá de su similitud y calidad de los datos. Pueden ser del mismo sector o poseen el mismo nicho de mercado. 
 
           li
             i.fas.fa-check
-            p <b>Intervalo:</b> estos deberán ser homogéneos en términos comparativos. Deben tener el mismo rango de tiempo (anuales, trimestral, mensual...).
+            p.mb-0 <b>Intervalo:</b> estos deberán ser homogéneos en términos comparativos. Deben tener el mismo rango de tiempo (anuales, trimestral, mensual...).
 
         p.mb-4  A continuación, se encuentran las características de un balance:
         ul.lista-ul
           li
             i.fas.fa-check
-            p Se rige por el principio contable de partida doble.       
+            p.mb-0 Se rige por el principio contable de partida doble.       
           li
             i.fas.fa-check
-            p Equilibrio entre activo, pasivo y patrimonio (contabilidad básica).  
+            p.mb-0 Equilibrio entre activo, pasivo y patrimonio (contabilidad básica).  
           li
             i.fas.fa-check
-            p Se recogen datos contables reales. 
+            p.mb-0 Se recogen datos contables reales. 
           li
             i.fas.fa-check
-            p Para un balance comparativo se deben tener previamente dos balances. 
+            p.mb-0 Para un balance comparativo se deben tener previamente dos balances. 
           li
             i.fas.fa-check
-            p La recolección de los datos y resultados estarán sujetos a interpretaciones a nivel económico y empresarial.
+            p.mb-0 La recolección de los datos y resultados estarán sujetos a interpretaciones a nivel económico y empresarial.
 
     p.mb-5  A continuación, se presenta un ejemplo simple de un balance comparativo: 
 
@@ -151,12 +151,12 @@
     .row.mb-5.justify-content-center
       .col-lg-10
         .tabla-a.color-acento-botones.mb-5 
-          table
+          table.text-bold
             thead
               tr
-                th Activo 
-                th Patrimonio Neto
-            tbody
+                th.h4 Activo 
+                th.h4 Patrimonio Neto
+            tbody.bg-softgray
               tr
                 td Activo no corriente
                 td  Pasivo
@@ -235,8 +235,8 @@
           table
             thead
               tr
-                th Documentos contables internos 
-                th Documentos contables externos
+                th.h4 Documentos contables internos 
+                th.h4 Documentos contables externos
             tbody
               tr
                 td 
@@ -257,7 +257,7 @@
                     li
                       i.fas.fa-check
                       p.mb-0 Recibos de pago, entre otros.
-                td 
+                td.bg-softgray 
                   p Son elaborados por otra empresa o por otro servicio adquirido.
                   ul.lista-ul
                     li
@@ -355,7 +355,7 @@
     .row.mb-5.justify-content-center
       .col-lg-8
         figure(data-aos='flip-left')
-          img(src='@/assets/curso/t6-i9.jpg' alt='Ejemplo de balance de apertura')          
+          img(src='@/assets/curso/t6-i9.svg' alt='Ejemplo de balance de apertura')          
 
 
     Separador
@@ -374,7 +374,7 @@
         figure(data-aos='flip-left')
           img(src='@/assets/curso/t6-i10.jpg' alt='Ejemplo de balance de apertura')     
 
-    .row.mb-5.justify-content.center
+    .row.mb-5.justify-content-center
       .col-lg-4
         figure(data-aos='flip-left')
           img(src='@/assets/curso/t6-i11.svg' alt='Ejemplo de balance de apertura') 
