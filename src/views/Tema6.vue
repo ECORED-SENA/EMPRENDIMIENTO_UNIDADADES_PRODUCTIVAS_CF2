@@ -77,7 +77,7 @@
           img(src='@/assets/curso/t6-i4.svg' alt='imagen decorativa')              
       .col-lg-8
         .tarjeta.tarjeta--gris.p-4.mb-5
-          LineaTiempoC.color-acento-contenido(text-small)
+          LineaTiempoC.color-primario(text-small)
             .row(titulo="Tipo 1")
               .col-md-12.mb-4.mb-md-0
                 .h3 Balance de sumas y saldos

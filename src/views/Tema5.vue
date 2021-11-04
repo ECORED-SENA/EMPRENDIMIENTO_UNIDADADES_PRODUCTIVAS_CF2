@@ -46,8 +46,8 @@
       .col-lg-10
         p.mb-3  En toda contabilidad de una unidad productiva se debe identificar y tener claro los conceptos relacionados a gastos y costos. La diferencia entre estos, recae en que los costos son considerados inversiones que se identifican directamente con los ingresos, mientras que los gastos no se asocian con el retorno de la venta del producto o servicio de la unidad productiva. En pocas palabras, los costos se consideran activos, mientras que los gastos no. A continuación, se conocerá un poco más de estos conceptos: 
 
-    TabsA.color-acento-botones.mb-5
-      .tarjeta.color-acento-botones.p-4(titulo="Ingresos")
+    TabsA.color-acento-contenido.mb-5
+      .tarjeta.color-acento-contenido.p-4(titulo="Ingresos")
         .row
           .col-lg-4
             figure.slideInLeft
@@ -56,7 +56,7 @@
             h4 Ingresos
             p Son incrementos en activos o disminuciones en pasivos.  Las causas de los ingresos son operaciones de ventas de bienes y servicios provenientes de las operaciones de la empresa que se orientan a los objetivos y metas.
 
-      .tarjeta.color-acento-botones.p-4(titulo="Costos")
+      .tarjeta.color-acento-contenido.p-4(titulo="Costos")
         .row
           .col-lg-4
             figure.slideInLeft
@@ -65,7 +65,7 @@
             h4 Costos
             p Sacrificios económicos que demanda la adquisición de un bien o servicio con utilidad económica para la empresa. Son las inversiones que hace la entidad para realizar su objetivo. Aquí se encuentran los costos de ventas cantidad que invierte la empresa para lograr su objetivo, es una inversión realizada que influye directamente en el precio del producto o servicio que ofrece la empresa.
 
-      .tarjeta.color-acento-botones.p-4(titulo="Gastos")
+      .tarjeta.color-acento-contenido.p-4(titulo="Gastos")
         .row
           .col-lg-4
             figure.slideInLeft
@@ -94,16 +94,79 @@
         figure.slideInLeft
           img(src='@/assets/curso/t5-ic5.png' alt='imagen decorativa')
     
-    .row.mb-5
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t5-c1.png')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
-              .h3 Identificación del consumidor final  
-              p Clientes objetivo; segmentos; grupos destinatarios; nichos estratégicos; sectores de apoyo. 
+    .row.mb-5.justify-content-center
+      .col-md-4.col-lg-3.mb-3
+        .nav-holder.align-items-center(data-aos="flip-up")
+          img(src="@/assets/curso/t5-c1.svg", alt="Imagen decorativa")
+          .text.p-lg-3.p-4
+            .row.px-lg-3.mb-lg-2
+              p.h3 Identificación del consumidor final
+              p.small Clientes objetivo; segmentos; grupos destinatarios; nichos estratégicos; sectores de apoyo.
 
+      .col-md-4.col-lg-3.mb-3
+        .nav-holder.align-items-center.indicador__container(data-aos="flip-up")
+          img(src="@/assets/curso/t5-c2.svg", alt="Imagen decorativa")
+          .text.p-lg-3.p-4
+            .row.px-lg-3.mb-lg-2
+              p.h3 Tácticas para atraer al consumidor final  
+              p.small Los clientes de la competencia. Después de esto se definen tácticas para retener los clientes, ampliar la propuesta planteada y definir estrategias ante una reclamación, entre otras. 
+          .indicador--click(v-if="mostrarIndicador")
+
+      .col-md-4.col-lg-3.mb-3
+        .nav-holder.align-items-center(data-aos="flip-up")
+          img(src="@/assets/curso/t5-c3.svg", alt="Imagen decorativa")
+          .text.p-lg-3.p-4
+            .row.px-lg-3.mb-lg-2
+              p.h3 Estructurar canales de distribución y venta 
+              p.small Definir los canales de distribución efectivos que permita una distribución intensiva y eficaz de las mercancías. 
+
+      .col-md-4.col-lg-3.mb-3
+        .nav-holder.align-items-center(data-aos="flip-up")
+          img(src="@/assets/curso/t5-c4.svg", alt="Imagen decorativa")
+          .text.p-lg-3.p-4
+            .row.px-lg-3.mb-lg-2
+              p.h3 Gestionar canales de venta
+              p.small Mantener ventas en los establecimientos; identificar las condiciones de cada canal; gestionar la estimulación y la comunicación, etc.
+
+      .col-md-4.col-lg-3.mb-3
+        .nav-holder.align-items-center(data-aos="flip-up")
+          img(src="@/assets/curso/t5-c5.svg", alt="Imagen decorativa")
+          .text.p-lg-3.p-4
+            .row.px-lg-3.mb-lg-2
+              p.h3 Estimular los canales de distribución
+              p.small Planificación y promoción de la distribución entre los participantes del canal, establecer metodologías de ventas en los canales de distribución.
+
+      .col-md-4.col-lg-3.mb-3
+        .nav-holder.align-items-center(data-aos="flip-up")
+          img(src="@/assets/curso/t5-c6.svg", alt="Imagen decorativa")
+          .text.p-lg-3.p-4
+            .row.px-lg-3.mb-lg-2
+              p.h3 Organización de las ventas 
+              p.small Estructurar las ventas de la unidad productiva, definir tareas y funciones de la organización para la gestión de ventas (estructura, personal del área de ventas; distribución de las funciones: por territorios, clientes, líneas de productos, etc.).
+
+      .col-md-4.col-lg-3.mb-3
+        .nav-holder.align-items-center(data-aos="flip-up")
+          img(src="@/assets/curso/t5-c7.svg", alt="Imagen decorativa")
+          .text.p-lg-3.p-4
+            .row.px-lg-3.mb-lg-2
+              p.h3 Administración de ventas
+              p.small Se debe tener una planificación y control de los empleados; de igual forma generar una contratación, motivación; análisis de las actividades; selección y adaptación (información, evaluación del área o departamento).
+
+      .col-md-4.col-lg-3.mb-3
+        .nav-holder.align-items-center(data-aos="flip-up")
+          img(src="@/assets/curso/t5-c8.svg", alt="Imagen decorativa")
+          .text.p-lg-3.p-4
+            .row.px-lg-3.mb-lg-2
+              p.h3 Gestión de ventas
+              p.small Calcular coste de ventas, determinar el gasto en las ventas; establecer los canales de distribución, compras, rentabilidad de las ventas y evaluación de la eficiencia de los empleados.
+
+      .col-md-4.col-lg-3.mb-3
+        .nav-holder.align-items-center(data-aos="flip-up")
+          img(src="@/assets/curso/t5-c8.svg", alt="Imagen decorativa")
+          .text.p-lg-3.p-4
+            .row.px-lg-3.mb-lg-2
+              p.h3 Sistema de ventas
+              p.small Se debe realizar de forma periódica una evaluación y ajuste de todo el sistema de ventas (al menos una vez al año).
 
     p.mb-5  Por otra parte, se encuentra que para que exista una gestión eficaz de las ventas se debe identificar el cliente objetivo, realizar un marketing comercial y gestionar la distribución de los productos. Todo esto determina la estructura de apoyo de las ventas y para su gestión implica: 
 
@@ -212,7 +275,7 @@
           .col-lg-6
             figure(data-aos='flip-left')
               img(src='@/assets/curso/t5-s8.png' alt='Ejemplo de factura') 
-
+    br
     p.mb-5  Se pueden encontrar diferentes tipos de administración.
     .row.mb-5.justify-content-center
       .col-lg-8
@@ -225,7 +288,31 @@
 
     p.mb-5  Según el tipo de organización en cuestión, pueden ser:
 
-    //-- Aqui vienen los cards navholder
+    .row.mb-5.justify-content-center
+      .col-md-4.col-lg-4.mb-3
+        .nav-holder.align-items-center(data-aos="flip-left")
+          img(src="@/assets/curso/t5-f3.svg", alt="Imagen decorativa")
+          .text.p-lg-3.p-4
+            .row.px-lg-3.mb-lg-2
+              p.h3 Pública
+              p.small Se encarga de la gestión de las instituciones del Estado.
+
+      .col-md-4.col-lg-4.mb-3
+        .nav-holder.align-items-center(data-aos="flip-left")
+          img(src="@/assets/curso/t5-f2.svg", alt="Imagen decorativa")
+          .text.p-lg-3.p-4
+            .row.px-lg-3.mb-lg-2
+              p.h3 Privada
+              p.small Se dedica a la administración de entidades privadas que no dependen del Gobierno.
+
+      .col-md-4.col-lg-4.mb-3
+        .nav-holder.align-items-center(data-aos="flip-left")
+          img(src="@/assets/curso/t5-f1.svg", alt="Imagen decorativa")
+          .text.p-lg-3.p-4
+            .row.px-lg-3.mb-lg-2
+              p.h3 Mixta
+              p.small Se enfoca en la gestión de instituciones privadas que reciben apoyo del Estado, o de organismos autónomos donde el Gobierno tiene cierta injerencia o participación.
+
 
     .row.mb-5.justify-content-center
       .col-lg-10
@@ -279,7 +366,7 @@
         .h4 Logística de negocios
         .row
           .col-lg-6
-            ul.lista-ul
+            ul.lista-ul(data-aos='slide-left')
               li
                 i.fas.fa-check
                 p.mb-0  Transporte
@@ -306,7 +393,7 @@
                 p.mb-0  Mantenimiento de información
                 
           .col-lg-6
-            ul.lista-ul
+            ul.lista-ul(data-aos='slide-right')
               li
                 i.fas.fa-check
                 p.mb-0  Programación de suministros
@@ -332,12 +419,12 @@
                 i.fas.fa-check
                 p.mb-0  Mantenimiento de información
       
-    p.mb-5  Estas actividades se organizan, dependiendo del punto donde puedan tener lugar en el canal de suministros.
-    p.mb-5  Se puede clasificar la lista en actividades clave y actividades de apoyo, en el siguiente cuadro se podrá observar algunas de las decisiones asociadas con cada una.
+    p.mb-5(data-aos='slide-up')  Estas actividades se organizan, dependiendo del punto donde puedan tener lugar en el canal de suministros.
+    p.mb-5(data-aos='slide-up')  Se puede clasificar la lista en actividades clave y actividades de apoyo, en el siguiente cuadro se podrá observar algunas de las decisiones asociadas con cada una.
 
     .row.mb-5.justify-content-center
       .col-lg-10
-        .tabla-a.color-acento-botones.mb-5 
+        .tabla-a.color-acento-botones.mb-5(data-aos='flip-left') 
           table
             thead
               tr
@@ -459,7 +546,7 @@
 export default {
   name: 'Tema5',
   data: () => ({
-    // variables de vue
+    mostrarIndicador: true,
   }),
   mounted() {
     this.$nextTick(() => {

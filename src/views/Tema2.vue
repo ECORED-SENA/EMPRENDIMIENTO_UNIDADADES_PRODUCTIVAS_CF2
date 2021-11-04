@@ -15,8 +15,8 @@
       .col-lg-10
         p.mb-3  En una unidad productiva cuando se ejecuta una técnica de planificación de ventas, no consiste en predecir y prepararse para el futuro sino en ordenar los recursos para que sea favorable el futuro. A continuación, se mencionan siete pasos que se deben tener en cuenta para ejecutar en el plan de ventas: 
 
-    TabsA.color-acento-botones.mb-5
-      .tarjeta.color-acento-botones.p-4(titulo="Recopilación de información")
+    TabsA.color-acento-contenido.mb-5
+      .tarjeta.color-acento-contenido.p-4(titulo="Recopilación de información")
         .row
           .col-lg-4
             figure.slideInLeft
@@ -24,7 +24,7 @@
           .col-lg-8
             h4 Recopilación de información
             p La información es crucial para generar un pronóstico y proyección de las ventas.
-      .tarjeta.color-acento-botones.p-4(titulo="Fijar objetivos")
+      .tarjeta.color-acento-contenido.p-4(titulo="Fijar objetivos")
         .row
           .col-lg-4
             figure.slideInLeft
@@ -32,7 +32,7 @@
           .col-lg-8
             h4 Fijar objetivos
             p Estos objetivos deben ser específicos, medibles, alcanzables, relevantes y temporales.
-      .tarjeta.color-acento-botones.p-4(titulo="Desarrollo de estrategias")
+      .tarjeta.color-acento-contenido.p-4(titulo="Desarrollo de estrategias")
         .row
           .col-lg-4
             figure.slideInLeft
@@ -41,7 +41,7 @@
             h4 Desarrollo de estrategias
             p Con el propósito de alcanzar los objetivos, aquí se decide qué hacer, cómo y cuándo.
             
-      .tarjeta.color-acento-botones.p-4(titulo="Desarrollo de estrategias")
+      .tarjeta.color-acento-contenido.p-4(titulo="Desarrollo de estrategias")
         .row
           .col-lg-4
             figure.slideInLeft
@@ -50,7 +50,7 @@
             h4 Desarrollo de políticas
             p Aquí se toman decisiones más cruciales para los asuntos estratégicos con el fin de lograr los objetivos.
 
-      .tarjeta.color-acento-botones.p-4(titulo="Desarrollo de programas")
+      .tarjeta.color-acento-contenido.p-4(titulo="Desarrollo de programas")
         .row
           .col-lg-4
             figure.slideInLeft
@@ -59,7 +59,7 @@
             h4 Desarrollo de programas
             p Aquí se toman decisiones más cruciales para los asuntos estratégicos con el fin de lograr los objetivos.            
 
-      .tarjeta.color-acento-botones.p-4(titulo="Procedimientos")
+      .tarjeta.color-acento-contenido.p-4(titulo="Procedimientos")
         .row
           .col-lg-4
             figure.slideInLeft
@@ -68,7 +68,7 @@
             h4 Procedimientos
             p Son programas de acción ajustados que se refieren a asuntos tácticos recurrentes. Aquí se busca la forma eficiente y uniforme de desempeñar las actividades.    
 
-      .tarjeta.color-acento-botones.p-4(titulo="Presupuesto")
+      .tarjeta.color-acento-contenido.p-4(titulo="Presupuesto")
         .row
           .col-lg-4
             figure.slideInLeft
@@ -85,10 +85,10 @@
       h2 2.1  Aida
     .row.mb-5.justify-content-center
       .col-lg-10
-        .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
+        .bloque-texto-a.color-primario.p-4.p-md-5.mb-3
           .row.m-0.align-items-center.justify-content-between
             .col-lg-9
-              .bloque-texto-a__texto.p-4
+              .bloque-texto-a__texto.p-4.shadow-box
                 p Este modelo fue mencionado por <b>Paul Lazarsfeld</b> (1901-1976) y establece una serie de secuencias de estados por el que se debe llevar al cliente para cumplir con el objetivo comercial: <b>Atención, Interés, Deseo y Acción (AIDA)</b>. A continuación, se puede observar la secuencia de los estados AIDA:
 
             .col-lg-3.mb-4.mb-lg-0
@@ -173,11 +173,11 @@
 
     .row.mb-5.justify-content-center
       .col-lg-10
-        .bloque-texto-g.color-acento-botones.custom-cardBlock.p-3.p-sm-4.p-md-5.slideInUp
+        .bloque-texto-g.color-primario.custom-cardBlock.p-3.p-sm-4.p-md-5.slideInUp
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/t2-i4.jpg')})`}"
           )
-          .bloque-texto-g__texto.p-4
+          .bloque-texto-g__texto.p-4.shadow-box
             p.mb-0 <b>Toda unidad productiva debe contar con diferentes equipos comerciales que cuenten con diferentes herramientas de marketing para poder facilitar y aumentar las ventas.</b> Entre estas herramientas se destaca la comunicación, siendo esta una disciplina que todo vendedor y profesional debe dominar. Su principal objetivo es <b>conocer las necesidades del cliente o del interlocutor para poder satisfacer de forma plena con los argumentos de venta.</b>
 
     p.mb-5  Se puede resaltar que la comunicación comercial utiliza la fuerza de las ventas para conseguir que el mercado adquiera un producto determinado. Para lograr esto se utiliza el contacto directo, oral y simultáneo con el cliente. Lo anterior se puede llevar a buen término si el mensaje que debe existir en toda comunicación es comprendido y aceptado, estos elementos son:

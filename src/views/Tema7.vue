@@ -12,7 +12,7 @@
       .col-lg-7
         p.mb-3  Toda unidad productiva en sus etapas de inicio y en desarrollo de sus actividades es primordial que cuente con financiación y para eso deben realizar un presupuesto, a continuación, se va a conocer qué es y sus características. 
         p.mb-3  Un presupuesto se considera un plan operacional y de recursos de la unidad productiva, su fin es lograr los objetivos propuestos por administración y se expresa en términos monetarios. En otras palabras, se entiende como la planeación para lo que se quiere en el futuro con la unidad productiva y expresarlo en dinero.  
-        .cajon.color-acento-botones.p-4
+        .cajon.color-acento-contenido.p-4
           p.mb-0  Por otra parte, el presupuesto hace referencia a la cantidad de dinero que se necesita para cubrir una serie de gastos necesarios para la realización de un proyecto. Se puede entender también como una cifra anticipada que estima el coste que se necesita para el cumplimiento de un objetivo.
 
       .col-lg-5
@@ -105,7 +105,7 @@
     .row.mb-5
       .col-lg-7(data-aos='flip-up')
         p.mb-4  En contabilidad los conceptos de ingreso y egreso son términos opuestos. El primero representa una entrada de dinero y el segundo hace referencia a una salida.
-        .cajon.color-acento-botones.p-4.mb-4
+        .cajon.color-acento-contenido.p-4.mb-4
           p.mb-0  Se puede entender ingreso como un aumento en el patrimonio de una persona natural o jurídica, y por otro lado el egreso sería una reducción de este. Por otra parte, al reportar beneficios en un periodo específico, los ingresos deben superar a los egresos. De no ser así, se registrarán pérdidas. Las unidades productivas analizan esto en el estado financiero conocido como cuenta de resultados.
         p.mb-3  Se debe determinar primero el tipo de empresa o actividad económica que desarrolla. A continuación, se verán unos ejemplos de ingresos y egresos (gastos):    
       .col-lg-5
@@ -118,8 +118,8 @@
           table
             thead
               tr
-                th Una empresa que se dedica al transporte
-                th Empresa que se dedica a la venta de material deportivo
+                th.h4 Una empresa que se dedica al transporte
+                th.h4 Empresa que se dedica a la venta de material deportivo
             tbody
               tr
                 td 
@@ -130,7 +130,7 @@
                     li
                       i.fas.fa-check
                       p <b>Egresos (Gastos):</b> <br>Sería por ejemplo el mantenimiento del vehículo o gasto de carburante de nuestros vehículos.
-                td 
+                td.bg-softgray 
                   ul.lista-ul
                     li
                       i.fas.fa-check
@@ -162,7 +162,7 @@
                     li
                       i.fas.fa-check
                       p Beneficio obtenido por la venta de una maquinaría de la empresa.                     
-                td 
+                td.bg-softgray 
                   ul.lista-ul
                     li
                       i.fas.fa-check

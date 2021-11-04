@@ -9,7 +9,7 @@
       h1 Previsión de ventas
     .row.mb-5.justify-content-center
       .col-lg-10
-        .bloque-texto-g.color-acento-botones.custom-cardBlock.p-3.p-sm-4.p-md-5.slideInUp
+        .bloque-texto-g.color-primario.custom-cardBlock.p-3.p-sm-4.p-md-5.slideInUp
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/t3-i1.jpg')})`}"
           )
@@ -51,8 +51,24 @@
         figcaption Nota. SENA (2021).
 
     p.mb-5  Por otra parte, se pueden identificar algunas características de la cuota de ventas, entre estas se encentran:
-    //-- Aqui viene el componente interactivo
-
+    .row.mb-5.justify-content-center
+      .col-lg-10
+        ImagenInfografica.color-acento-contenido
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/t3-info2.svg', alt='Texto que describa la imagen')
+          .tarjeta.color-acento-contenido.p-3.shadow-box(x="14%" y="40%" numero='')
+            p Nos indica los conceptos y las diferentes formas que existen.
+          .tarjeta.color-acento-contenido.p-3.shadow-box(x="50%" y="40%" numero='')
+            p Se establece en función del histórico de ventas y pronóstico (datos objetivos y no subjetivos). 
+          .tarjeta.color-acento-contenido.p-3.shadow-box(x="86%" y="40%" numero='')
+            p Debe ser clara y fácil de entender.
+          .tarjeta.color-acento-contenido.p-3.shadow-box(x="14%" y="98%" numero='')
+            p Se aplican mecanismos de control y seguimiento.
+          .tarjeta.color-acento-contenido.p-3.shadow-box(x="50%" y="98%" numero='')
+            p Debe permitir ajustes ante posibles cambios en las condiciones del mercado.
+          .tarjeta.color-acento-contenido.p-3.shadow-box(x="86%" y="98%" numero='')
+            p Debe estar en términos relativos y no absoluto.
 
     Separador
     br
@@ -83,28 +99,28 @@
         .row
           .col-lg-5
             figure.slideInLeft
-              img(src='@/assets/curso/t3-i2.jpg' alt='imagen decorativa')            
+              img(src='@/assets/curso/t3-im3.jpg' alt='imagen decorativa')            
           .col-md-6.mb-4.mb-md-0
             h4 Acciones de la empresa
-            p 
+            p Se fundamenta en las acciones que una empresa puede forjar para aprovechar adecuadamente las ventas. Para que sea eficiente se debe tener presente las expectativas de ventas y que sea permisible al cambio o modificación en cualquier momento.
     
       .py-4.py-md-5(titulo="Proyección del mercado" :icono="require('@/assets/curso/t3-ico3.svg')")
         .row
           .col-lg-5
             figure.slideInLeft
-              img(src='@/assets/curso/t3-i2.jpg' alt='imagen decorativa')            
+              img(src='@/assets/curso/t3-im4.jpg' alt='imagen decorativa')            
           .col-md-6.mb-4.mb-md-0
             h4 Proyección del mercado
-            p 
+            p Se realiza un análisis del mercado y de los potenciales competidores con el fin de conocer el camino que debe tomar la unidad productiva. Se debe estimar la proyección de las ventas mediante información contundente que permita tener una descripción real de las necesidades y características del mercado. El resultado de este análisis nos permite conocer la factibilidad de poder abrir o no el negocio o unidad productiva.
 
       .py-4.py-md-5(titulo="Punto de equilibrio" :icono="require('@/assets/curso/t3-ico4.svg')")
         .row
           .col-lg-5
             figure.slideInLeft
-              img(src='@/assets/curso/t3-i2.jpg' alt='imagen decorativa')            
+              img(src='@/assets/curso/t3-im5.jpg' alt='imagen decorativa')            
           .col-md-6.mb-4.mb-md-0
             h4 Punto de equilibrio
-            p 
+            p Se centra en un análisis del punto de equilibrio de la unidad productiva, aquí se tiene en cuenta los productos o servicios, el precio de venta y las proyecciones de ventas. Además, se deben considerar los costos fijos o directos. Es así, como se llega al punto de equilibrio y se tiene una proyección de venta estratégica para la unidad productiva. 
 
 
 
