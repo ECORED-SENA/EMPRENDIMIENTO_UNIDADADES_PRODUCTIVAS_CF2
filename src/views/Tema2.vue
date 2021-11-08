@@ -97,7 +97,7 @@
     
     .row.mb-5.justify-content-center
       .col-lg-8
-        figcaption.customCaption Técnica AIDA
+        figcaption.customCaption <b>Figura</b> Técnica AIDA
         figure
           img.nW.centered(src='@/assets/curso/t2-i1.svg' alt='imagen decorativa')
         figcaption  Nota. SENA (2021).
