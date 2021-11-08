@@ -278,18 +278,18 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Jorge Armando Villamizar Moreno',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Luis Fabian Robles Méndez',
@@ -306,7 +306,7 @@ export default {
       {
         nombre: 'Zuleidy María Ruiz Torres',
         cargo: 'Producción audiovisual',
-        centro: 'Centro de Comercio y Servicios Regional Tolima ',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima ',
       },
       {
         nombre: 'Wilson Andrés Arenales Cáceres',
@@ -361,7 +361,7 @@ export default {
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },
