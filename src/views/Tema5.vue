@@ -88,8 +88,8 @@
       | &nbsp;  Ventas
     .row.mb-5
       .col-lg-8
-        p.mb-3  El concepto de ventas es muy amplio y se encuentran varios en diferentes bibliografías, pero se entiende las ventas como: las actividades realizadas para incentivar potenciales clientes a realizar una determinada compra. Su gestión, se encarga de realizar actividades de marketing estratégico para la venta de bienes y servicios.
-        p.mb-3  El área de ventas de toda unidad productiva debe establecer objetivos tácticos de ventas, desarrollar un plan de acción y supervisión, planificar y gestionar recursos necesarios para soportes de ventas en curso. Para lograr el nivel de ventas esperado, se establecen elementos claves desde las actividades de la administración para la gestión de ventas. A continuación se puede ampliar más al respecto: 
+        p.mb-3  El concepto de ventas es muy amplio y se encuentran varios en diferentes bibliografías, pero se entiende las ventas como: las actividades realizadas para incentivar potenciales clientes a realizar una determinada compra. Su gestión, se encarga de realizar actividades de <i>marketing</i> estratégico para la venta de bienes y servicios.
+        p.mb-3  El área de ventas de toda unidad productiva debe establecer objetivos tácticos de ventas, desarrollar un plan de acción y supervisión, planificar y gestionar recursos necesarios para soportes de ventas en curso. Para lograr el nivel de ventas esperado, se establecen elementos claves desde las actividades de la administración para la gestión de ventas. A continuación, se puede ampliar más al respecto: 
       .col-lg-4
         figure.slideInLeft
           img(src='@/assets/curso/t5-ic5.png' alt='imagen decorativa')
@@ -162,13 +162,13 @@
 
       .col-md-4.col-lg-3.mb-3
         .nav-holder.align-items-center(data-aos="flip-up")
-          img(src="@/assets/curso/t5-c8.svg", alt="Imagen decorativa")
+          img(src="@/assets/curso/t5-c9.svg", alt="Imagen decorativa")
           .text.p-lg-3.p-4
             .row.px-lg-3.mb-lg-2
               p.h3 Sistema de ventas
               p.small Se debe realizar de forma periódica una evaluación y ajuste de todo el sistema de ventas (al menos una vez al año).
 
-    p.mb-5  Por otra parte, se encuentra que para que exista una gestión eficaz de las ventas se debe identificar el cliente objetivo, realizar un marketing comercial y gestionar la distribución de los productos. Todo esto determina la estructura de apoyo de las ventas y para su gestión implica: 
+    p.mb-5  Por otra parte, se encuentra que para que exista una gestión eficaz de las ventas se debe identificar el cliente objetivo, realizar un <i>marketing</i> comercial y gestionar la distribución de los productos. Todo esto determina la estructura de apoyo de las ventas y para su gestión implica: 
 
     .row.mb-5.justify-content-center
       .col-lg-8
@@ -185,6 +185,7 @@
       .col-lg-8
         p.mb-3  Toda unidad productiva debe realizar y tener una administración que le permita establecer los procesos, identificar las fortalezas, debilidades y oportunidades que tiene la organización ante las demás en el mercado, pero, además permitirá conocer la situación financiera real de la organización.
         p.mb-3.text-bold  En cuanto a su conceptualización, se puede decir que la administración es el proceso que busca por medio de la planificación, la organización, ejecución y el control de los recursos darles un uso más eficiente para alcanzar los objetivos de la unidad productiva.
+        p.mb-3  Por otra parte, para que la administración pueda alcanzar estos objetivos, se debe hacer uso de los recursos humanos, intelectuales, materiales, tecnológicos y financieros que tiene la unidad productiva; esto con el fin de buscar estabilidad y crecimiento de la organización y grupos sociales.
         p.mb-3  Según lo planteado anteriormente, el administrador es fundamental en la unidad productiva. Las actividades administrativas se caracterizan por tener una estructura de subordinación o relación de jerarquía, en otras palabras, se trabaja bajo el mando de otro. En la actualidad se puede observar que la administración se puede aplicar en instituciones formales e informales, las formales son aquellas que se rigen por normas y leyes que están escritas para que se pueda dar su funcionamiento como es el caso del Estado, empresa, organización o unidad productiva. Por otra parte, las informales tienen normas, pero no se encuentran escritas, un ejemplo de esto puede ser la familia donde también se administran recursos bajos un objetivo.
         
       .col-lg-4
@@ -317,7 +318,7 @@
     .row.mb-5.justify-content-center
       .col-lg-10
         .cajon.color-primario.p-4
-          p.mb-0  De igual modo, se puede clasificar la administración según la materia que se está gestionando, pudiendo ser financiera (si se trata de capitales), comercial (en el área de marketing), de procesos, de recursos humanos, etc.
+          p.mb-0  De igual modo, se puede clasificar la administración según la materia que se está gestionando, pudiendo ser <b>financiera</b> (si se trata de capitales), <b>comercial</b> (en el área de <i>marketing</i>), de <b>procesos</b>, de <b>recursos humanos</b>, etc.
 
     h3.titulo-tercero
       i.fas.fa-angle-right
@@ -333,7 +334,7 @@
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .h6.mb-0 - Según el Consejo de Dirección Logística – CML (1962)
-        p.mb-3  En el proceso de logística se encuentra la <b>cadena de suministros</b> que enfatiza las interacciones que tienen lugar entre las funciones de marketing, logística y producción en una unidad productiva, y las interacciones que se llevan a cabo entre empresas independientes que se encuentran dentro del canal de flujo del producto. Su funcionamiento abarca todas las actividades relacionadas con el flujo y transformación de bienes, desde la etapa de materia prima (extracción) hasta el usuario o consumidor final, así como los flujos de información relacionados. Por otro parte, los materiales y la información fluyen en sentido ascendente y descendente en la cadena de suministros. La mejora de sus relaciones permite alcanzar una ventaja competitiva sostenible.
+        p.mb-3  En el proceso de logística se encuentra la <b>cadena de suministros</b> que enfatiza las interacciones que tienen lugar entre las funciones de <i>marketing</i>, logística y producción en una unidad productiva, y las interacciones que se llevan a cabo entre empresas independientes que se encuentran dentro del canal de flujo del producto. Su funcionamiento abarca todas las actividades relacionadas con el flujo y transformación de bienes, desde la etapa de materia prima (extracción) hasta el usuario o consumidor final, así como los flujos de información relacionados. Por otra parte, los materiales y la información fluyen en sentido ascendente y descendente en la cadena de suministros. La mejora de sus relaciones permite alcanzar una ventaja competitiva sostenible.
       
       .col-lg-4
         figure(data-aos='flip-left')

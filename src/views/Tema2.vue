@@ -41,7 +41,7 @@
             h4 Desarrollo de estrategias
             p Con el propósito de alcanzar los objetivos, aquí se decide qué hacer, cómo y cuándo.
             
-      .tarjeta.color-acento-contenido.p-4(titulo="Desarrollo de estrategias")
+      .tarjeta.color-acento-contenido.p-4(titulo="Desarrollo de políticas")
         .row
           .col-lg-4
             figure.slideInLeft
@@ -57,7 +57,7 @@
               img(src='@/assets/curso/t2-t5.png' alt='imagen decorativa')
           .col-lg-8
             h4 Desarrollo de programas
-            p Aquí se toman decisiones más cruciales para los asuntos estratégicos con el fin de lograr los objetivos.            
+            p Aquí se debe identificar los pasos posibles mediante los programas que cumplan con los objetivos y estrategias planteadas en la unidad productiva.            
 
       .tarjeta.color-acento-contenido.p-4(titulo="Procedimientos")
         .row
@@ -97,7 +97,7 @@
     
     .row.mb-5.justify-content-center
       .col-lg-8
-        figcaption.customCaption <b>Figura</b> Técnica AIDA
+        figcaption.customCaption Técnica AIDA
         figure
           img.nW.centered(src='@/assets/curso/t2-i1.svg' alt='imagen decorativa')
         figcaption  Nota. SENA (2021).
@@ -129,10 +129,10 @@
           .tarjeta.color-acento-contenido.shadow-box.p-3(x="12%" y="24%" numero="1")
             p Que nos dan información sobre el negocio del cliente y su modo de trabajar. 
 
-          .tarjeta.color-acento-contenido.shadow-box.p-3(x="62%" y="24%" numero="2")
+          .tarjeta.color-acento-contenido.shadow-box.p-3(x="62%" y="24%" numero="3")
             p Que evidencien las consecuencias que estos problemas tienen para el cliente, magnificándolos, y busque la necesidad de resolverlos.
 
-          .tarjeta.color-acento-contenido.shadow-box.p-3(x="37%" y="76%" numero="3")
+          .tarjeta.color-acento-contenido.shadow-box.p-3(x="37%" y="76%" numero="2")
             p Que requieren un mayor conocimiento del sector, su objetivo es buscar que el cliente exprese problemas que su producto puede resolver y así logre avanzar con la venta.  Es importante que se conozca a fondo los problemas que puede llegar a resolver nuestros productos.
 
           .tarjeta.color-acento-contenido.shadow-box.p-3(x="88%" y="68%" numero="4")
@@ -158,7 +158,7 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/nRyOFMUA_S0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.mb-5.justify-content-center
       .col-lg-10
@@ -178,7 +178,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/t2-i4.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4.shadow-box
-            p.mb-0 <b>Toda unidad productiva debe contar con diferentes equipos comerciales que cuenten con diferentes herramientas de marketing para poder facilitar y aumentar las ventas.</b> Entre estas herramientas se destaca la comunicación, siendo esta una disciplina que todo vendedor y profesional debe dominar. Su principal objetivo es <b>conocer las necesidades del cliente o del interlocutor para poder satisfacer de forma plena con los argumentos de venta.</b>
+            p.mb-0 <b>Toda unidad productiva debe contar con diferentes equipos comerciales que cuenten con diferentes herramientas de <i>marketing</i> para poder facilitar y aumentar las ventas.</b> Entre estas herramientas se destaca la comunicación, siendo esta una disciplina que todo vendedor y profesional debe dominar. Su principal objetivo es <b>conocer las necesidades del cliente o del interlocutor para poder satisfacer de forma plena con los argumentos de venta.</b>
 
     p.mb-5  Se puede resaltar que la comunicación comercial utiliza la fuerza de las ventas para conseguir que el mercado adquiera un producto determinado. Para lograr esto se utiliza el contacto directo, oral y simultáneo con el cliente. Lo anterior se puede llevar a buen término si el mensaje que debe existir en toda comunicación es comprendido y aceptado, estos elementos son:
 
@@ -253,7 +253,7 @@
       h2 2.5  Post venta
     .row.mb-5
       .col-lg-8
-        p.mb-4(data-aos='fade-left')  Las post ventas se entienden como el conjunto de procesos posteriores a la venta, como mantener contacto por email, generar cupones para cumpleaños, descuentos en la segunda compra o para ocasiones especiales, entre otros. Aquí es importante transformar el cliente en un comprador recurrente de nuestra unidad productiva. Un ejemplo sería cuando después de la compra el cliente recibe un correo donde se le aconseja la mejor utilización del producto adquirido, esto hace que el cliente se sienta importante para la empresa y puede posibilitar que vuelva a comprar o elogiar su experiencia con la marca o negocio. 
+        p.mb-4(data-aos='fade-left')  Las post ventas se entienden como el conjunto de procesos posteriores a la venta, como mantener contacto por <i>email</i>, generar cupones para cumpleaños, descuentos en la segunda compra o para ocasiones especiales, entre otros. Aquí es importante transformar el cliente en un comprador recurrente de nuestra unidad productiva. Un ejemplo sería cuando después de la compra el cliente recibe un correo donde se le aconseja la mejor utilización del producto adquirido, esto hace que el cliente se sienta importante para la empresa y puede posibilitar que vuelva a comprar o elogiar su experiencia con la marca o negocio. 
         .cajon.color-acento-contenido.p-4(data-aos='slide-left')
           p.mb-0  La importancia de aplicar postventa recae en lograr fidelizar al cliente, puesto que buscar nuevos clientes implica una serie de acciones que demoran más en sufrir efecto y exige una inversión más alta, caso contrario en mantener al cliente satisfecho y hacerle saber que es importante para la empresa. De esa forma se convierte en un cliente constante de la marca o de los productos de la unidad productiva.
       .col-lg-4
@@ -280,7 +280,7 @@
             p.mb-0 Enviar contenido relevante al consumidor. 
           li
             i.fas.fa-check
-            p.mb-0 Mantener informado al potencial cliente por medio de email – marketing.
+            p.mb-0 Mantener informado al potencial cliente por medio de <i>email</i> – <i>marketing</i>.
           li
             i.fas.fa-check
             p.mb-0 Promocionar los lanzamientos a los clientes.

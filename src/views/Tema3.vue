@@ -58,7 +58,7 @@
             figure
               img(src='@/assets/curso/t3-info2.svg', alt='Texto que describa la imagen')
           .tarjeta.color-acento-contenido.p-3.shadow-box(x="14%" y="40%" numero='')
-            p Nos indica los conceptos y las diferentes formas que existen.
+            p Nos indica los conceptos y las diferentes formas que existen según la norma de consolidar una empresa o unidad productiva.
           .tarjeta.color-acento-contenido.p-3.shadow-box(x="50%" y="40%" numero='')
             p Se establece en función del histórico de ventas y pronóstico (datos objetivos y no subjetivos). 
           .tarjeta.color-acento-contenido.p-3.shadow-box(x="86%" y="40%" numero='')
@@ -102,8 +102,9 @@
               img(src='@/assets/curso/t3-im3.jpg' alt='imagen decorativa')            
           .col-md-6.mb-4.mb-md-0
             h4 Acciones de la empresa
-            p Se fundamenta en las acciones que una empresa puede forjar para aprovechar adecuadamente las ventas. Para que sea eficiente se debe tener presente las expectativas de ventas y que sea permisible al cambio o modificación en cualquier momento.
-    
+            p.mb-3 Se fundamenta en las acciones que una empresa puede forjar para aprovechar adecuadamente las ventas. Para que sea eficiente se debe tener presente las expectativas de ventas y que sea permisible al cambio o modificación en cualquier momento.
+            p.mb-3  Este método promueve los productos y servicios de una unidad productiva, determina la cantidad de clientes alcanzables, permite conocer nuevos productos o servicios del negocio y, por último, réplica estrategias, que ya han dado buenos resultados.
+
       .py-4.py-md-5(titulo="Proyección del mercado" :icono="require('@/assets/curso/t3-ico3.svg')")
         .row
           .col-lg-5

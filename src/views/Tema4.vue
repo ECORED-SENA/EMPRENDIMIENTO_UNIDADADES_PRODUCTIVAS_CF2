@@ -93,7 +93,7 @@
                 p <b>Contabilidad financiera:</b> registra la información relacionada con el estado financiero de la unidad productiva. Está dirigida a los gerentes y socios de la empresa. Se denomina contabilidad externa y se diferencia de la interna o de costes.
               li
                 i.fas.fa-check
-                p <b>Contabilidad administrativa:</b> Está enfocada a los aspectos más administrativos de la empresa, y se emplea para dar cumplimiento a los objetivos y estrategias de planificación de la unidad productiva.
+                p <b>Contabilidad administrativa:</b> está enfocada a los aspectos más administrativos de la empresa, y se emplea para dar cumplimiento a los objetivos y estrategias de planificación de la unidad productiva.
               li
                 i.fas.fa-check
                 p <b>Contabilidad fiscal:</b> se emplea para registrar y preparar los informes afines con las declaraciones y pagos de impuestos a la Hacienda Pública.

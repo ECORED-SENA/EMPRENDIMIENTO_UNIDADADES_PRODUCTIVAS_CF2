@@ -56,6 +56,7 @@
     h3.titulo-tercero
       i.fas.fa-angle-right
       | &nbsp;Tipos de presupuesto
+    p.mb-5  Si se tiene en cuenta la fusión con la que se realiza el presupuesto, se tienen los siguientes:
     .row.mb-5
       .col-lg-4
         figure(data-aos='flip-up')
