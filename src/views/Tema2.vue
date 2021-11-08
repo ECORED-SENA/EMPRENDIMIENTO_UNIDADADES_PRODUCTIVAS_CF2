@@ -120,7 +120,7 @@
 
     .row.mb-5.justify-content-center
       .col-lg-8
-        figcaption.customCaption.mb-3  Técnica SPIN
+        figcaption.customCaption.mb-3 <b>Figura</b>  &nbsp;Técnica SPIN
         ImagenInfografica.color-secundario.mb-5
           template(v-slot:imagen)
             figure
@@ -221,7 +221,7 @@
 
     p.mb-5  Por otra parte, se pueden observar varias etapas entre el mensaje que quiere dar a conocer el emisor y el que realmente capta el receptor. Es aquí donde aparecen diferentes interferencias o barreras que pueden modificar el mensaje y disminuir la eficacia de la comunicación. Entre algunas de estas interferencias están:
 
-    figcaption.customCaption.mb-3  Interferencias de la comunicación
+    figcaption.customCaption.mb-3 <b>Figura</b>  &nbsp;Interferencias de la comunicación
     ImagenInfografica.color-secundario.mb-5(data-aos='fade-up')
       template(v-slot:imagen)
         figure
