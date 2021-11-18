@@ -137,7 +137,7 @@
     p.mb-5  A continuación, se podrá observar en el siguiente video, cómo hacer un balance inicial, el cual se puede aplicar a una unidad productiva, emprendimiento o idea de negocio:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/TBjIMqvFA8g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     .row.mb-5
       .col-lg-9
