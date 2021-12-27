@@ -43,7 +43,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: '<i>Spin</i>',
+            titulo: '<i>SPIN</i>',
             hash: 't_2_2',
           },
           {
