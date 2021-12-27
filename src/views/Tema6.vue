@@ -301,7 +301,7 @@
         .row
           .col-lg-6.mb-4.mb-md-0
             h3 Letra de cambio 
-            p Es un documento mercantil que contiene una promesa u obligación de pagar una determinada cantidad de dinero a una convenida fecha de vencimiento. Aquí interactúan dos actores llamados librador (girado) y tomador (beneficiario); el girador corresponde al acreedor o el que presta el dinero, el girado es quien esta obligado a pagar y el beneficiario es la persona a la que se le debe pagar, este último, puede ser el mismo girador.  
+            p Es un documento mercantil que contiene una promesa u obligación de pagar una determinada cantidad de dinero a una convenida fecha de vencimiento. Aquí interactúan dos actores llamados librador (girado) y tomador (beneficiario); el girador corresponde al acreedor o el que presta el dinero, el girado es quien está obligado a pagar y el beneficiario es la persona a la que se le debe pagar, este último, puede ser el mismo girador.  
           .col-lg-6
             figure(data-aos='flip-left')
               img(src='@/assets/curso/t6-s3.png' alt='Ejemplo de letra de cambio') 
