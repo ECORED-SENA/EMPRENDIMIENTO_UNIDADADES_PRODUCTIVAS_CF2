@@ -82,7 +82,7 @@
 
 
     #t_2_1.titulo-segundo.color-secundario
-      h2 2.1  Aida
+      h2 2.1  AIDA
     .row.mb-5.justify-content-center
       .col-lg-10
         .bloque-texto-a.color-primario.p-4.p-md-5.mb-3
@@ -115,7 +115,7 @@
     br
     br
     #t_2_2.titulo-segundo.color-secundario
-      h2 2.2  <i>Spin</i>
+      h2 2.2  <i>SPIN</i>
     p.mb-5  Este modelo se categoriza por los diferentes tipos de preguntas que se le pueden realizar a un potencial cliente y de esta forma potenciar y desarrollar una oportunidad de negocio. Es muy utilizado en entornos de ventas complejas. Su estructura está definida de la siguiente forma: 
 
     .row.mb-5.justify-content-center
